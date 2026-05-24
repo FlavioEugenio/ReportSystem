@@ -1,0 +1,11 @@
+webhook:
+
+  enabled: false
+
+  url: "COLE_WEBHOOK_AQUI"
+
+blacklist:
+
+  - "fdp"
+  - "lixo"
+  - "hackclient"

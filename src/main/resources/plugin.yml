@@ -1,0 +1,49 @@
+name: ReportSystem
+
+version: 1.0
+
+main: com.flavio.reportsystem.ReportSystemPlugin
+
+api-version: 1.8
+
+author: Flavio
+
+commands:
+
+  report:
+    description: Reportar jogador
+
+  reports:
+    description: Abrir menu de reports
+
+  reportdelete:
+    description: Deletar report
+
+  reportstatus:
+    description: Alterar status
+
+  reportlogs:
+    description: Ver logs
+
+  reporttop:
+    description: Top reportados
+
+permissions:
+
+  reports.view:
+    default: op
+
+  reports.delete:
+    default: op
+
+  reports.status:
+    default: op
+
+  reports.logs:
+    default: op
+
+  reports.top:
+    default: op
+
+  reports.staff:
+    default: op
