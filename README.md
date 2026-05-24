@@ -8,6 +8,7 @@
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.8.8-brightgreen?style=for-the-badge&logo=minecraft)
 ![Maven](https://img.shields.io/badge/Build-Maven-red?style=for-the-badge&logo=apachemaven)
 ![Spigot](https://img.shields.io/badge/API-Spigot%2FBukkit-yellow?style=for-the-badge)
+![IntelliJ IDEA](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-purple?style=for-the-badge&logo=intellijidea)
 ![Version](https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge)
 
 Sistema completo de reports com interface gráfica, integração com Discord e painel de moderação para servidores Minecraft.
@@ -178,11 +179,16 @@ O plugin criará os arquivos de configuração automaticamente. Edite o `config.
 
 ## 🛠️ Tecnologias Utilizadas
 
+### Linguagens & Frameworks
 - **Java 8** — Linguagem principal
 - **Bukkit / Spigot API 1.8.8** — API do servidor Minecraft
 - **Maven** — Gerenciamento de dependências e build
 - **YAML** — Persistência de dados
 - **Discord Webhook** — Integração externa de notificações
+
+### Ambiente de Desenvolvimento
+- **IntelliJ IDEA** — IDE principal, com extensões recomendadas pela própria IDE (suporte a Maven, Minecraft development)
+- **Servidor Minecraft local (localhost)** — Ambiente de testes rodando Spigot 1.8.8 na própria máquina
 
 ---
 
